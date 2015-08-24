@@ -1,4 +1,5 @@
 function Employee (name,qualification,panCard) {
+    
     this.firstName=name;
     this.qualification=qualification;
     this.panCard=panCard;
@@ -13,11 +14,15 @@ function Employee (name,qualification,panCard) {
     
     this.getPanCard=function () {
         console.log("Pan card of employee:" + this.firstName + " is :" + this.panCard );
+       
 }
 
 }
+//var employee=Employee("Raman","MCA","ac5151b");
+var raman = new Employee("Raman","MCA","ac5151b");
+var dalip = new Employee("dalip","MCA","ac5151b");
 
-var employee = new Employee("Raman","MCA","ac5151b");
-employee.displayName();
-employee.getQualification();
-employee.getPanCard();
+
+raman.displayName();
+raman.getQualification();
+raman.getPanCard();
