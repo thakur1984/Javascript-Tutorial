@@ -1,5 +1,5 @@
-/// Problematic case
-// 
+// /// Problematic case
+// // 
 // function getEmpoyeeSalary(id) {
 //     console.log("Add function invoked");
 // 	
@@ -16,6 +16,7 @@
 // }
 // 
 // Employee.prototype.add = function(a, b) {
+//     var id=1;
 //     var data = getEmpoyeeSalary(id);
 // 	
 //     console.log("Add salary = " + data + 100);
